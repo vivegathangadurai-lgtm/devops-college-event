@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | CampusConnect</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="container">
+    <a class="logo" href="/index.html">Campus<span>Connect</span></a>
+    <button class="menu-btn" id="menu-btn" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    <ul class="nav-links" id="nav-links"><li><a href="index.html" class="active">Home</a></li><li><a href="events.html">Events</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="login.html">Login</a></li><li><a class="btn btn-primary" href="/register.html">Register</a></li></ul>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <div>
+      <h1>CampusConnect</h1>
+      <p class="tag">College Events &amp; Fest: three days of code, music, sport and ideas. Sample dates: 18&ndash;20 March 2027.</p>
+      <div class="btns">
+        <a class="btn btn-primary" href="/register.html">Register Now</a>
+        <a class="btn btn-ghost" href="#featured">Explore Events</a>
+      </div>
+    </div>
+    <aside class="ticket" aria-label="Fest schedule">
+      <h3>Fest schedule (sample)</h3>
+      <ul>
+        <li><span>Day 1 &middot; 18 Mar</span><span>Tech &amp; Sports</span></li>
+        <li><span>Day 2 &middot; 19 Mar</span><span>Culture Day</span></li>
+        <li><span>Day 3 &middot; 20 Mar</span><span>Finals &amp; Closing</span></li>
+      </ul>
+      <small>Venue: Main Campus (fictional)</small>
+    </aside>
+  </div>
+</section>
+
+<div class="container stats" aria-label="Fest statistics">
+  <div class="stat"><b>12</b><span>Events</span></div>
+  <div class="stat"><b>5</b><span>Categories</span></div>
+  <div class="stat"><b>8</b><span>Participating clubs</span></div>
+  <div class="stat"><b>3</b><span>Days</span></div>
+</div>
+
+<section id="featured">
+  <div class="container">
+    <h2>Featured events</h2>
+    <p class="lead">Crowd favourites from every corner of the fest.</p>
+    <div class="grid" id="featured-events"></div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="container">
+    <h2>Coming up first</h2>
+    <p class="lead">The earliest events on the schedule. Browse all of them on the events page.</p>
+    <div class="grid" id="upcoming-events"></div>
+    <p style="margin-top:1.5rem"><a class="btn btn-dark" href="/events.html">See all events</a></p>
+  </div>
+</section>
+
+<section>
+  <div class="container split">
+    <div>
+      <h2>Our college community</h2>
+      <p class="lead">Student clubs run the fest: coding, drama, music, sports and design. Everyone is welcome to join a team, volunteer or simply attend.</p>
+      <a class="btn btn-ghost" href="/about.html">About the fest</a>
+    </div>
+    <ul class="info-list">
+      <li>Coding Club &mdash; hackathons and workshops</li>
+      <li>Drama &amp; Dance Society &mdash; stage events</li>
+      <li>Sports Committee &mdash; tournaments</li>
+      <li>Design Circle &mdash; posters and UI sessions</li>
+    </ul>
+  </div>
+</section>
+
+<div class="modal-bg" id="modal-bg">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <h3 id="modal-title">Registration (demo)</h3>
+    <p id="modal-text"></p>
+    <button class="btn btn-dark" id="modal-close">Close</button>
+  </div>
+</div>
+<footer>
+  <div class="container">
+    <div class="foot">
+      <div><h4>CampusConnect &mdash; College Events &amp; Fest</h4>
+        <p>A sample frontend project for a college DevOps practical. All events, names and details are fictional.</p></div>
+      <div><h4>Pages</h4><ul><li><a href="/index.html">Home</a></li><li><a href="/events.html">Events</a></li><li><a href="/about.html">About</a></li><li><a href="/contact.html">Contact</a></li><li><a href="/login.html">Login</a></li><li><a href="/register.html">Register</a></li></ul></div>
+      <div><h4>Social (sample links)</h4><ul><li><a href="#">Instagram</a></li><li><a href="#">LinkedIn</a></li><li><a href="#">YouTube</a></li></ul></div>
+    </div>
+    <p class="copy">&copy; 2026 CampusConnect demo project. Not an official college website.</p>
+  </div>
+</footer>
+<script src="/js/script.js"></script>
+</body>
+</html>
